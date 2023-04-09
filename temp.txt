@@ -1,0 +1,9 @@
+1. Problem identification => done
+2. Business Understanding => done
+3. Collecting Data => done
+4. Pre-Processing Data => 
+5. Analyzing Data => 
+6. Data Modelling
+7. Model Evaluation/ Monitoring
+8. Model Training
+9. Model Deployment
