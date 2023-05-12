@@ -61,11 +61,11 @@ class Predict:
         return self.df
 
 
-print(os.getcwd())
-p = Predict()
-d = p.predict_row(Product('noise', 82990, 89900, 7.686318131, 4, 65,
-                  'BSW046', None, None, None, None, '8', 'Yes', None, '35 - 50 g'))
+# print(os.getcwd())
+# p = Predict()
+# d = p.predict_row(Product('noise', 82990, 89900, 7.686318131, 4, 65,
+#                   'BSW046', None, None, None, None, '8', 'Yes', None, '35 - 50 g'))
 
-tm = TrainModel.load_model()
-pred = tm.predict(d.drop(['Discount Price'], axis=1))
-print(pred)
+# tm = TrainModel.load_model()
+# pred = tm.predict(d.drop(['Discount Price'], axis=1))
+# print(pred)
